@@ -1,0 +1,36 @@
+body {
+    position: fixed;
+    margin: 0;
+    overflow: hidden;
+    background-color: pink;
+}
+
+#cat {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-image: url("../assets/cute-animated-cat.gif"); /* A GIF image of a cat */
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#mouse {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url("../assets/mouse.gif"); /* A GIF image of a mouse */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: none; /* Hide the mouse div initially */
+}
+
+.food {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
